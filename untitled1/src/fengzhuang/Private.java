@@ -1,4 +1,5 @@
 package fengzhuang;
+
 //使用private(私有，隐藏) 修饰，只能在本类中访问
 public class Private {
 
@@ -9,16 +10,15 @@ public class Private {
 //    private int ddd;
 //    private void setDdd(){}
 
-    public void setAge(int age){
-        if (age>=1 && age<200){
+    public void setAge(int age) {
+        if (age >= 1 && age < 200) {
             this.age = age;
-        }
-        else{
+        } else {
             System.out.println("输入年龄超出正常值");
         }
     }
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
 }
