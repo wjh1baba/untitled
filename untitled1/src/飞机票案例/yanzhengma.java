@@ -1,4 +1,4 @@
-package one;
+package 飞机票案例;
 
 import java.util.Random;
 

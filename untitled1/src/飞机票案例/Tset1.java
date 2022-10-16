@@ -1,5 +1,4 @@
-package one;
-import java.util.Arrays;
+package 飞机票案例;
 import java.util.Scanner;
 
 public class Tset1 {

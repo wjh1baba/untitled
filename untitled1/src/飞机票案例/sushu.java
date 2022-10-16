@@ -1,4 +1,4 @@
-package one;
+package 飞机票案例;
 
 public class sushu {
     public static void main(String[] args){

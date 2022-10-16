@@ -1,4 +1,4 @@
-package lei;
+package 购物车案例;
 
 public class Goods {
     int id;

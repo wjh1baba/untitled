@@ -1,6 +1,4 @@
-package one;
-
-import java.util.Arrays;
+package 飞机票案例;
 
 public class copeshuzu {
     public static void main(String[] args) {

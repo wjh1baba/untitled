@@ -153,11 +153,12 @@ public class ATMSystem {
                     //注册账户
                     System.out.println("是否确定销户 y是确定");
                     String rs = sc.next();
-                    switch (rs){
-                        case "y":{
+                    switch (rs) {
+                        case "y": {
                             ac.remove(acc);
                             System.out.println("取消销户成功");
-                            return;}
+                            return;
+                        }
                         default:
                             System.out.println("取消销户成功");
                     }
@@ -172,7 +173,7 @@ public class ATMSystem {
         while (true) {
             System.out.println("请输入你原先的密码");
             String oldpassword = sc.next();
-            if (oldpassword.equals(acc.getPassWord())){
+            if (oldpassword.equals(acc.getPassWord())) {
                 System.out.println("请输入你的新密码");
                 String password = sc.next();
                 System.out.println("请再次确认你的密码");
@@ -183,8 +184,7 @@ public class ATMSystem {
                     break;
                 } else
                     System.out.println("俩次密码不同请重新输入");
-        }
-            else
+            } else
                 System.out.println("输入密码有误,请重新输入");
         }
 

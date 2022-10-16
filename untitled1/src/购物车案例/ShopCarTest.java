@@ -1,6 +1,5 @@
-package lei;
+package 购物车案例;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ShopCarTest {
