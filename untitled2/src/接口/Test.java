@@ -5,6 +5,6 @@ public class Test {
         PingPongMan pm = new PingPongMan("NP");
 
         pm.run();
-    }
 
+    }
 }

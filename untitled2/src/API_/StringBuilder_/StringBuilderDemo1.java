@@ -1,4 +1,4 @@
-package StringBuilder_;
+package API_.StringBuilder_;
 
 public class StringBuilderDemo1 {
     public static void main(String[] args) {
@@ -15,6 +15,7 @@ public class StringBuilderDemo1 {
         //恢复成String   toString已重写返回的是String类型的字符串
         String rs = s2.toString();
         check(rs);
+
     }
 
     private static void check(String rs) {
