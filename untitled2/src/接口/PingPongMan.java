@@ -7,7 +7,6 @@ public class PingPongMan implements SportMan{
         this.name = name;
     }
 
-
     @Override
     public void run() {
         System.out.println(name+"在跑步");

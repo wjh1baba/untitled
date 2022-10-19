@@ -2,6 +2,7 @@ package API_.toString_;
 
 public class toString_XL {
     public static void main(String[] args) {
+        String name = "111";
         test ts1 = new test("jj",'男',16);
         test ts2 = new test("jj",'男',16);
         System.out.println(ts1);  //打印原先Object.toSring API_.toString_.test@4eec7777
