@@ -12,7 +12,7 @@ public class Test {
 
 
 class MyArrayList<E>{
-    private final ArrayList list = new ArrayList();
+    ArrayList<E> list = new ArrayList<>();
     public void add(E e){
         list.add(e);
     }
