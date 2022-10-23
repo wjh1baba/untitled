@@ -6,6 +6,7 @@ public class Test{
 
         System.out.println(tr.getName());
         System.out.println(tr.getAge());
+
     }
 }
 
