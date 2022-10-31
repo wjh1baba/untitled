@@ -6,15 +6,17 @@ public class Test {
     public static void main(String[] args) {
 
 
-
+        //用Map来存储投票
         Map<Integer,List<String>> map = new HashMap<>();
         for (int i = 1; i <= 80; i++) {
             List<String> s = randomint();
             map.put(i,s);
         }
 
+//        存储投票结果
         Map<String, Integer> map1 = new HashMap<>();
 
+//        循环Map统计票数
         Collection<List<String>> values = map.values();
         for (List<String> value : values) {
             for (String key : value) {
