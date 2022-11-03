@@ -5,13 +5,13 @@ public class User {
     private String password;
     private String name;
     private char sex;
-    private int phone;
+    private String phone;
     private double money;
 
     public User() {
     }
 
-    public User(String username, String password, String name, char sex, int phone, double money) {
+    public User(String username, String password, String name, char sex, String phone, double money) {
         this.username = username;
         this.password = password;
         this.name = name;
@@ -52,11 +52,11 @@ public class User {
         this.sex = sex;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -66,5 +66,17 @@ public class User {
 
     public void setMoney(double money) {
         this.money = money;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", sex=" + sex +
+                ", phone='" + phone + '\'' +
+                ", money=" + money +
+                '}';
     }
 }
