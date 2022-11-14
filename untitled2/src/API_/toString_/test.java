@@ -38,7 +38,7 @@ public class test {
 
     @Override
     public String toString() {
-        return "Test{" +
+        return "Test.txt{" +
                 "name='" + name + '\'' +
                 ", sex=" + sex +
                 ", age=" + age +

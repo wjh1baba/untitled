@@ -13,8 +13,13 @@ public class demo1 {
         maps.put("maps3",3);
         maps.put("maps4",4);
 
+
         //第一种方式遍历取值    键找值
         System.out.println(maps.keySet());
+        System.out.println(maps.entrySet());
+        for (Map.Entry<String, Integer> stringIntegerEntry : maps.entrySet()) {
+            System.out.println(stringIntegerEntry.getKey());
+        }
         for (String key : maps.keySet()) {
             System.out.println(key+"="+maps.get(key));
         }
